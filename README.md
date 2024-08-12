@@ -8,5 +8,5 @@ Specifically meant for Indian crops, this model is designed to recognize common 
 
 ### 1. Dataset from Kaggle
 
-- **Diversity and Authenticity:** We've harnessed a comprehensive dataset from Kaggle ([Indian Medicinal Leaves Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)) that spans a wide array of Indian plants, featuring 80 meticulously documented and labeled classes.
+- **Diversity and Authenticity:** We've harnessed a comprehensive dataset from Kaggle ([New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)) that spans a wide array of Indian plants, featuring 80 meticulously documented and labeled classes.
 - **Ground-Truth Labels:** Every data point in our dataset is accompanied by precise, expert-verified labels, ensuring the highest quality of training and evaluation.
