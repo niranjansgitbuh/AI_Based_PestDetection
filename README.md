@@ -20,5 +20,8 @@ Specifically meant for Indian crops, this model is designed to recognize common 
 - **Powered by Google Colab:** To make robust training accessible to all, we harnessed the free GPU resources provided by Google Colab.
 - **Tesla T4 GPU:** Our model training benefited from the performance and capabilities of the Tesla T4 GPU, enhancing the efficiency and speed of the training process.
 
+### 4. Large Language Model
+-**Gemini:** "Integrating the Gemini LLM model into our project has significantly enhanced solution accuracy and reliability. Its advanced capabilities have streamlined our problem-solving process with impressive precision."
+
 ## Conclusion
 Our AI-Based Pest and Disease Detection model goes beyond mere technological innovation; it's a significant step toward safeguarding and exploring India’s rich agricultural heritage. Boasting high accuracy and leveraging the power of Google Colab with a Tesla T4 GPU, this model is set to become an invaluable resource. Whether integrated into a user-friendly web application for farmers, aiding in botanical research, or supporting the preservation of traditional medicine, it’s designed to make a meaningful impact on the future of Indian agriculture.
