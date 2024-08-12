@@ -5,5 +5,4 @@ This project focuses on developing an AI-based system for detecting pests and di
 
 Specifically meant for Indian crops, this model is designed to recognize common pests and diseases, ensuring region-specific precision. The ultimate goal is to deploy the model as a web application, providing farmers and agricultural experts with an accessible tool for early diagnosis and treatment. This will help in minimizing crop damage, enhancing yield, and supporting sustainable farming practices.
 # Key features
-  1. Dataset from kaggle
-     1.hi all 
+  # 1. Dataset from Kaggle
