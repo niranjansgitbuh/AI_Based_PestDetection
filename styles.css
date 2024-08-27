@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: url('https://i.ibb.co/DRMDb0Z/image-for-a-web-2019c442-b4ae-4314-8b6e-81e649c4b38c.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: backgroundPan 20s linear infinite;
+}
+
+@keyframes backgroundPan {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+.nav-menu {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu span {
+    color:black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+.nav-menu span:hover {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 1.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.login-container {
+    margin-top: 100px;
+}
+
+h1, h2 {
+    color: #2f4f2f;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.form-group, form {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus {
+    border-color: black;
+    outline: none;
+}
+
+input[type="file"]:hover {
+    background-color:white;
+    transform: scale(1.05);
+}
+
+button {
+    background-color:#6b8e23;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+button:hover {
+    background-color: grey;
+    transform: translateY(-2px) scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #3a5337;
+    background: url('https://example.com/leaf-pattern.png') repeat;
+    padding: 10px;
+    border-radius: 5px;
+    background-size: contain;
+    animation: fadeIn 2s ease-out;
+}
